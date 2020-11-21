@@ -1,0 +1,7 @@
+birth_details.getcontent:
+  path: '/birthinfo'
+  defaults:
+    _controller: '\Drupal\birth_details\Controller\birthdetailsController::getcontent'
+    _title: 'Provide your birth details for readings'
+  requirements:
+    _permission: 'access content'

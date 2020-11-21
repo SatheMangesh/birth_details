@@ -1,0 +1,5 @@
+name: Birth Details capture
+description: Asks for Name, Birth date, Birth time, Birth place, Gender, longitute and latitide
+package: Astros
+type: module
+core_version_requirement: ^8.9 || ^9

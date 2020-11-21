@@ -1,0 +1,6 @@
+birth_details.admin:
+  title: 'Birth details settings'
+  description: 'Customize the way data is collected'
+  parent: system.admin_config_development
+  route_name: birth_details.getcontent
+  weight: 100
