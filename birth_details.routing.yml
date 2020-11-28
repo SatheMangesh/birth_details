@@ -5,3 +5,11 @@ birth_details.getcontent:
     _title: 'Provide your birth details for readings'
   requirements:
     _permission: 'access content'
+
+birth_details.newreading:
+  path: '/new-reading'
+  defaults: 
+    _title: 'Enter the birth details for reading'
+    _form: '\Drupal\birth_details\Form\BirthDetails'
+  requirements: 
+    _permission: 'access content'
